@@ -1,5 +1,5 @@
 
-//BTVN:  Nhập vào 1 mảng số nguyên , in ra tất cả các số chẵn ra ngoài màn hình
+//BTVN:  Nháº­p vÃ o 1 máº£ng sá»‘ nguyÃªn , in ra táº¥t cáº£ cÃ¡c sá»‘ cháºµn ra ngoÃ i mÃ n hÃ¬nh
 
 package com.imic.students.DO_NAM_HAI.BaiTapVeNhaBuoi5;
 
@@ -12,29 +12,29 @@ public class SoChan {
 		Scanner nhap = new Scanner(System.in);
 
 		int n = 0;
-		int tong = 0;
+	
 		try {
-			System.out.print(" Mời bạn nhập số lượng index : ");
+			System.out.print(" Má»�i báº¡n nháº­p sá»‘ lÆ°á»£ng index : ");
 			n = nhap.nextInt();
 
 			int[] soNguyen = new int[n];
 
 			for (int i = 0; i < n; i++) {
 
-				System.out.print(" Mời bạn nhập số nguyên : ");
+				System.out.print(" Má»�i báº¡n nháº­p sá»‘ nguyÃªn : ");
 				soNguyen[i] = nhap.nextInt();
 
 			}
 			for (int x : soNguyen) {
 				if (x % 2 == 0) {
-					System.out.println("Ta được số chẵn trong mảng : " + x);
+					System.out.println("Ta Ä‘Æ°á»£c sá»‘ cháºµn trong máº£ng : " + x);
 				}
 
 			}
 		}
 
 		catch (Exception a) {
-			System.out.println(" Mời bạn nhập lại số ");
+			System.out.println(" Má»�i báº¡n nháº­p láº¡i sá»‘ ");
 		}
 	}
 }

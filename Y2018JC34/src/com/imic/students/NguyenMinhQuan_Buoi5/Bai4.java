@@ -59,7 +59,7 @@ public class Bai4 {
 				}
 			}
 		}
-		System.out.print("Thứ tự điểm tăng dần là : " + Arrays.toString(b));
+		System.out.print("Sap xep diem theo thu tu tang dan� : " + Arrays.toString(b));
 
 	}
 
